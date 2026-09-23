@@ -13,6 +13,12 @@ I'm interested in using data to understand business problems and support practic
 
 ## Project work
 
+### [Customer Churn Analysis and Predictive Modeling](projects/customer-churn-analysis)
+
+A Python project exploring customer retention patterns and comparing logistic regression, decision tree, random forest, and stacking models. Includes an executed notebook, model evaluation, visualizations, and business interpretation.
+
+The portfolio revision documents reproducibility improvements and the models' limitations, with the original coursework preserved separately.
+
 ### [Regork: Coupon Redemption and Customer Spending](https://github.com/JackMagee12/2026-Regork-Midterm-Project)
 
 A team coursework project exploring how coupon redemption relates to customer spending and how purchasing patterns vary across demographic groups.

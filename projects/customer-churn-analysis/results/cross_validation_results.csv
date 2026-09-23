@@ -1,0 +1,4 @@
+model,cv_f1,parameters
+Logistic regression,0.16904118683353864,{'classifier__C': 10}
+Decision tree,0.2002625004953164,"{'classifier__max_depth': 10, 'classifier__min_samples_leaf': 5, 'classifier__min_samples_split': 2}"
+Random forest,0.014064230343300111,"{'classifier__max_depth': 20, 'classifier__min_samples_split': 2, 'classifier__n_estimators': 200}"
