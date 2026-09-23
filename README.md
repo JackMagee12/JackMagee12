@@ -25,7 +25,6 @@ A team coursework project exploring how coupon redemption relates to customer sp
 
 The project uses Python, pandas, NumPy, Matplotlib, and Seaborn to combine transaction, coupon redemption, and demographic data and examine spending, shopping frequency, and basket size.
 
-*Portfolio presentation in progress.*
 
 ## A little about me
 
