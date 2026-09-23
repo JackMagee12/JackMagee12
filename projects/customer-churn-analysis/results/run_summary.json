@@ -1,0 +1,86 @@
+{
+  "labeled_rows": 6000,
+  "unlabeled_rows": 1000,
+  "features": 34,
+  "churners": 595,
+  "churn_rate": 0.09916666666666667,
+  "holdout_rows": 1800,
+  "holdout_churners": 178,
+  "selected_baseline": "Decision tree",
+  "cv_results": [
+    {
+      "model": "Logistic regression",
+      "cv_f1": 0.16904118683353864,
+      "parameters": {
+        "classifier__C": 10
+      }
+    },
+    {
+      "model": "Decision tree",
+      "cv_f1": 0.2002625004953164,
+      "parameters": {
+        "classifier__max_depth": 10,
+        "classifier__min_samples_leaf": 5,
+        "classifier__min_samples_split": 2
+      }
+    },
+    {
+      "model": "Random forest",
+      "cv_f1": 0.014064230343300111,
+      "parameters": {
+        "classifier__max_depth": 20,
+        "classifier__min_samples_split": 2,
+        "classifier__n_estimators": 200
+      }
+    }
+  ],
+  "metrics": [
+    {
+      "model": "Always-stay baseline",
+      "accuracy": 0.9011111111111111,
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "roc_auc": 0.5,
+      "average_precision": 0.09888888888888889
+    },
+    {
+      "model": "Logistic regression",
+      "accuracy": 0.9005555555555556,
+      "precision": 0.4666666666666667,
+      "recall": 0.03932584269662921,
+      "f1": 0.07253886010362694,
+      "roc_auc": 0.7574987184638191,
+      "average_precision": 0.2671062006131609
+    },
+    {
+      "model": "Decision tree",
+      "accuracy": 0.8694444444444445,
+      "precision": 0.1724137931034483,
+      "recall": 0.08426966292134831,
+      "f1": 0.11320754716981132,
+      "roc_auc": 0.6626615774671303,
+      "average_precision": 0.16842247135426622
+    },
+    {
+      "model": "Random forest",
+      "accuracy": 0.9011111111111111,
+      "precision": 0.5,
+      "recall": 0.0056179775280898875,
+      "f1": 0.011111111111111112,
+      "roc_auc": 0.758336912398343,
+      "average_precision": 0.25255114226848885
+    },
+    {
+      "model": "Stacking ensemble",
+      "accuracy": 0.8988888888888888,
+      "precision": 0.16666666666666666,
+      "recall": 0.0056179775280898875,
+      "f1": 0.010869565217391304,
+      "roc_auc": 0.7356121586611065,
+      "average_precision": 0.23193328747074585
+    }
+  ],
+  "python": "3.12.14",
+  "sklearn": "1.8.0"
+}
